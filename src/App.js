@@ -33,10 +33,8 @@ const App = () => {
       resetErrors();
   }
 
-  // In the spec it was explained that the pokemons name, sprite and
-  // description is required to be shown however there are limitations
-  // within the pokemon api where by the description is only provided
-  // (that I could find) on the species endpoint. But the result of that
+  // Due to limitations within the pokemon api where by the description is only 
+  // provided (that I could find) on the species endpoint. But the result of that
   // endpoint did not have the sprite.
   const findPokemon = async () => {
     resetErrors();    

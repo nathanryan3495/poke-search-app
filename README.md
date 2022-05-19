@@ -1,4 +1,4 @@
-# Poke-Search Tech Test
+# Poke-Search
 
 To get this project running you are going to need to run the following commands in order:
 
