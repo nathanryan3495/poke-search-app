@@ -1,0 +1,22 @@
+.error-alert__ {
+    &container {
+        color: #664d03;
+        background-color: #fff3cd;
+        border-color: #ffecb5;
+        position: relative;
+        padding: 20px;
+        margin-bottom: 1rem;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+        margin: 20px;
+    }
+
+    &title {
+        font-weight: 500;
+        margin: 0 0 10px 0;
+    }
+
+    &error-string {
+        margin: 0;
+    }
+}
