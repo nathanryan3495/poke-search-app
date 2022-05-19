@@ -48,6 +48,13 @@ const App = () => {
       return;
     }
 
+    if (searchQuery.length > 200) {
+      setError(true);
+      setErrorString('Search query cannot be longer than 200 characters.');
+      setIsLoading(false);
+      return;
+    }
+
     await axios
       .get(`https://pokeapi.co/api/v2/pokemon-species/${searchQuery}`)
       .then((res) => {
